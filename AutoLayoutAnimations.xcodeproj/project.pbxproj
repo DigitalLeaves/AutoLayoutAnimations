@@ -12,6 +12,10 @@
 		6666D5551EB2283E00EE7512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6666D5531EB2283E00EE7512 /* Main.storyboard */; };
 		6666D5571EB2283E00EE7512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6666D5561EB2283E00EE7512 /* Assets.xcassets */; };
 		6666D55A1EB2283E00EE7512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6666D5581EB2283E00EE7512 /* LaunchScreen.storyboard */; };
+		6666D5621EB22B0A00EE7512 /* MovementAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666D5611EB22B0A00EE7512 /* MovementAnimationsViewController.swift */; };
+		6666D5641EB22B1000EE7512 /* SizeAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666D5631EB22B1000EE7512 /* SizeAnimationsViewController.swift */; };
+		6666D5661EB22B1700EE7512 /* SpringAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666D5651EB22B1700EE7512 /* SpringAnimationsViewController.swift */; };
+		6666D5681EB22B2300EE7512 /* CombinedAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6666D5671EB22B2300EE7512 /* CombinedAnimationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		6666D5561EB2283E00EE7512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6666D5591EB2283E00EE7512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6666D55B1EB2283E00EE7512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6666D5611EB22B0A00EE7512 /* MovementAnimationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovementAnimationsViewController.swift; sourceTree = "<group>"; };
+		6666D5631EB22B1000EE7512 /* SizeAnimationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeAnimationsViewController.swift; sourceTree = "<group>"; };
+		6666D5651EB22B1700EE7512 /* SpringAnimationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimationsViewController.swift; sourceTree = "<group>"; };
+		6666D5671EB22B2300EE7512 /* CombinedAnimationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedAnimationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				6666D5561EB2283E00EE7512 /* Assets.xcassets */,
 				6666D5581EB2283E00EE7512 /* LaunchScreen.storyboard */,
 				6666D55B1EB2283E00EE7512 /* Info.plist */,
+				6666D5611EB22B0A00EE7512 /* MovementAnimationsViewController.swift */,
+				6666D5631EB22B1000EE7512 /* SizeAnimationsViewController.swift */,
+				6666D5651EB22B1700EE7512 /* SpringAnimationsViewController.swift */,
+				6666D5671EB22B2300EE7512 /* CombinedAnimationsViewController.swift */,
 			);
 			path = AutoLayoutAnimations;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6666D5681EB22B2300EE7512 /* CombinedAnimationsViewController.swift in Sources */,
 				6666D5521EB2283E00EE7512 /* ViewController.swift in Sources */,
 				6666D5501EB2283E00EE7512 /* AppDelegate.swift in Sources */,
+				6666D5641EB22B1000EE7512 /* SizeAnimationsViewController.swift in Sources */,
+				6666D5621EB22B0A00EE7512 /* MovementAnimationsViewController.swift in Sources */,
+				6666D5661EB22B1700EE7512 /* SpringAnimationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
